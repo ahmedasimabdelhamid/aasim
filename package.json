@@ -12,5 +12,13 @@
         "ahmed asim",
         "ahmed",
         "asim"
-    ]
+    ], 
+    "license": "MIT",
+    "main": "index.js",
+    "repository":  "AhmedAsimMetwally/aasim",
+    "author": {
+        "name": "Ahmed Asim",
+        "email": "ahmedassem.am@gmail.com",
+        "url": "https://github.com/AhmedAsimMetwally/" 
+    }
 }
