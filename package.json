@@ -1,6 +1,6 @@
 {
     "name": "aasim",
-    "version": "1.2.0",
+    "version": "1.3.0",
     "description": "Get to Know Ahmed Asim via `npx aasim`.",
     "bin": {
         "aasim": "index.js"
