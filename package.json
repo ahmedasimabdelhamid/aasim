@@ -1,6 +1,6 @@
 {
     "name": "aasim",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "description": "Get to Know Ahmed Asim via `npx aasim`.",
     "bin": {
         "aasim": "index.js"
@@ -12,13 +12,13 @@
         "ahmed asim",
         "ahmed",
         "asim"
-    ], 
+    ],
     "license": "MIT",
     "main": "index.js",
-    "repository":  "AhmedAsimMetwally/aasim",
+    "repository": "AhmedAsimMetwally/aasim",
     "author": {
         "name": "Ahmed Asim",
         "email": "ahmedassem.am@gmail.com",
-        "url": "https://github.com/AhmedAsimMetwally/" 
+        "url": "https://github.com/AhmedAsimMetwally/"
     }
 }
