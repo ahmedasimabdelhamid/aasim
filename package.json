@@ -1,0 +1,16 @@
+{
+    "name": "aasim",
+    "version": "1.1.0",
+    "description": "Get to Know Ahmed Asim via `npx aasim`.",
+    "bin": {
+        "aasim": "index.js"
+    },
+    "dependencies": {
+        "cli-welcome": "^2.2.2"
+    },
+    "keywords": [
+        "ahmed asim",
+        "ahmed",
+        "asim"
+    ]
+}
