@@ -4,8 +4,15 @@
 // Clears the console.
 const pkgJSON = require('./package.json');
 const welcome = require('cli-welcome'); 
+const chalk = require('chalk');
+const log = console.log;
+const twitterClr = chalk.hex(`1da1f2`).bold.inverse;
+const linkedinClr = chalk.hex(`0077b5`).bold.inverse;
+const githubClr = chalk.hex(`6cc644`).bold.inverse;
+const dim = chalk.dim;
+const italic = chalk.italic
 welcome({
-   title: pkgJSON.name, 
+   title: 'Ahmed Asim',
    tagLine: `Howdy, nice to meet ya!`,
    description: pkgJSON.description,
    version: pkgJSON.version,
@@ -14,20 +21,20 @@ welcome({
    bold: true,
    clear: true,
 })
-console.log(`
+
+log(`
 NAME: ${pkgJSON.name}
 VERSION: ${pkgJSON.version}
 DESCRIPTION: ${pkgJSON.description}
-
 `);
 
-console.log(`Ahmed Asim - DevOps Engineer 
-
-I'm Senior DevOps Engineer, 29 years old Egyption based on Riyadh KSA I've 4 years of experience in the IT field.
+// ${chalk.hex(`00aff0`).bold.inverse(` Ahmed Asim `)}
+log(`
+${italic(`Senior DevOps Engineer, 29 years old Egyption based on Riyadh KSA I've 4 years of experience in the IT field.
 I've worked with different companies with different roles i.e DevOps Engineer,Linux Systems Engineer,
-Systems Engineer, Product technology Engineer.
+Systems Engineer, Product technology Engineer.`)}
 
-LinkedIn: https://www.linkedin.com/in/ahmed-asim/
-Twitter: https://twitter.com/AmAhmedassem
-GitHub: https://github.com/AhmedAsimMetwally
+${linkedinClr (` LinkedIn `)}: ${dim(`https://www.linkedin.com/in/ahmed-asim`)}
+${twitterClr (` Twitter `)}: ${dim(`https://twitter.com/AmAhmedassem`)}
+${githubClr (` GitHub: `)}: ${dim(`https://github.com/AhmedAsimMetwally`)}
 `);
